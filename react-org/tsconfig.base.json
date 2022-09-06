@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@react-org/data": ["libs/data/src/index.ts"]
+      "@react-org/data": ["libs/data/src/index.ts"],
+      "@react-org/ui": ["libs/ui/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
