@@ -1,8 +1,5 @@
 import { Express } from 'express';
-
-interface Todo {
-  title: string;
-}
+import { Todo } from '@react-org/data';
 
 const todos: Todo[] = [
   {

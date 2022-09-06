@@ -1,8 +1,5 @@
 import { useEffect, useState } from 'react';
-
-interface Todo {
-  title: string;
-}
+import { Todo } from '@react-org/data';
 
 export const App = () => {
   const [todos, setTodos] = useState<Todo[]>([]);
@@ -10,7 +7,10 @@ export const App = () => {
   useEffect(() => {
     fetch('/api/todos')
       .then((_) => _.json())
-      .then(setTodos);
+      .then((res) => {
+        console.log(res);
+        setTodos(res);
+      });
   }, []);
 
   function addTodo() {
