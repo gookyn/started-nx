@@ -17,5 +17,6 @@
         "cwd": "packages/cli"
       }
     }
-  }
+  },
+  "implicitDependencies": ["ascii"]
 }
