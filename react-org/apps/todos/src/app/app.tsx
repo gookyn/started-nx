@@ -7,10 +7,7 @@ export const App = () => {
   useEffect(() => {
     fetch('/api/todos')
       .then((_) => _.json())
-      .then((res) => {
-        console.log(res);
-        setTodos(res);
-      });
+      .then(setTodos);
   }, []);
 
   function addTodo() {
