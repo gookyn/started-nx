@@ -5,6 +5,7 @@
     "auth": "libs/auth",
     "data": "libs/data",
     "first-generate-lib": "libs/first-generate-lib",
+    "generate-lib-by-template": "libs/generate-lib-by-template",
     "todos": "apps/todos"
   }
 }
