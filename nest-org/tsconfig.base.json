@@ -16,7 +16,8 @@
     "baseUrl": ".",
     "paths": {
       "@nest-org/auth": ["libs/auth/src/index.ts"],
-      "@nest-org/data": ["libs/data/src/index.ts"]
+      "@nest-org/data": ["libs/data/src/index.ts"],
+      "@nest-org/first-generate-lib": ["libs/first-generate-lib/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

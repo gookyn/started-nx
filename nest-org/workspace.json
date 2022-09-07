@@ -4,6 +4,7 @@
   "projects": {
     "auth": "libs/auth",
     "data": "libs/data",
+    "first-generate-lib": "libs/first-generate-lib",
     "todos": "apps/todos"
   }
 }
